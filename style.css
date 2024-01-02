@@ -201,6 +201,7 @@ a {
     background-image: url('./layered-waves-haikei.svg');
 }
 
+
 #quote {
     padding-top: 150px;
     font-style: italic;
@@ -214,4 +215,60 @@ a {
     display: flex;
     justify-content: flex-end;
     width: 60%;
+}
+
+
+
+#CTA {
+    height: 50vh;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#CTA button {
+    margin-top: 100px;
+ border: none;
+ background-color: #1F2937;
+ color: white;
+ font-weight: bolder;
+ font-size: 32px;
+ width: 500px;
+ height: 100px;
+ cursor: pointer;
+}
+
+
+.custom-shape-divider-top-1704161085 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1704161085 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 155px;
+}
+
+.custom-shape-divider-top-1704161085 .shape-fill {
+    fill: #E5E7EB;
+}
+
+#footer {
+    height: 10vh;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 24px;
+font-weight: bold;
 }
