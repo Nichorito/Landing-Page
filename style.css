@@ -146,14 +146,7 @@ a {
     margin: 0;
 }
 
-.spacer {
-    aspect-ratio: 900/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url('./layered-waves-haikei.svg');
-}
+
 
 #CP2-flexbox {
     display: flex;
@@ -182,4 +175,43 @@ a {
     border-radius: 20px;
     border: #E5E7EB 5px solid;
     object-fit: cover;
+}
+
+#testimonial {
+    margin-top: 80px;
+    height: 50vh;
+    background-color: #E5E7EB;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15%;
+    width: 70%;
+    flex-direction: column;
+    
+}
+
+.spacer {
+    position: absolute;
+    aspect-ratio: 900/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./layered-waves-haikei.svg');
+}
+
+#quote {
+    padding-top: 150px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1F2937;
+    z-index: 4;
+}
+
+#flexname {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
 }
